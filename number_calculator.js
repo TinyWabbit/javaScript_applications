@@ -1,18 +1,15 @@
 let num1 = prompt("Please enter any number and then press enter");
 let num2 = prompt("Please enter any second number you like and then press enter")
-let operator = prompt("Please type either, `Add`, `Subtract`, `Divide` or `Multiply`");
+let operator = prompt("Please type either, `Add`, `Subtract`, `Divide` or `Multiply`").toLowerCase();
 
 function addOrSubtract(num1, operator, num2){
-    if (operator === "Add" || operator === "add"){
+    if (operator === "add"){
         console.log(Number(num1) + Number(num2));
-    }
-    else if (operator === "Subtract" || operator === "subtract"){
+    } else if (operator === "subtract"){
         console.log(Number(num1) - Number(num2));
-    }
-    else if (operator === "Divide" || operator === "divide"){
+    } else if (operator === "divide"){
         console.log(Number(num1) / Number(num2));
-    }
-    else if (operator === "Multiply" || operator === "multiply"){
+    } else if (operator === "multiply"){
         console.log(Number(num1) * Number(num2));
     } else {
         console.log(Number(num1) + Number(num2));
