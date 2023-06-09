@@ -1,3 +1,4 @@
+//Employee Tracker App - Includes examples of classes, variables, arrays, iteration, functions and function calling.
 class Employees {
     constructor (firstname, lastname, yearsnumber) {
     this.firstname = firstname;
